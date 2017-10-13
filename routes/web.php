@@ -16,12 +16,12 @@
 });
 */
 
-/*Route::get('home',function(){
+Route::get('home',function(){
 
 	return view('photo_album.home');
 
 
-});*/
+});
 
 
 Route::get('/',['as'=>'home','uses'=>'DisplayController@vista']);

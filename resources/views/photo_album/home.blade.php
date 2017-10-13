@@ -9,11 +9,11 @@
             <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
 
-       @foreach($imagen as $decos)
+    {{--    @foreach($imagen as $decos)
 
           {{$decos->imagen}}
 
-       @endforeach
+       @endforeach --}}
 
         <!-- Wrapper for Slides -->
         <div class="carousel-inner" role="listbox">
@@ -22,7 +22,7 @@
                 <!-- <div class="fill" style="background-image:url('img/bg.jpg');"></div> -->
                 <img src="{{asset('assets_photo_album/img/bg.jpg')}}" alt="First slide">
                 <div class="carousel-caption">
-                  <h2 class="sub-title-home">We Don't Take Photograph</h2>
+                  <h2 class="sub-title-home">Nosotros tomamos fotografias</h2>
                   <h1 class="title-home">We Make It</h1>
                 </div>
             </div>
